@@ -71,9 +71,20 @@ class Home extends StatelessWidget {
                       ),
                     ),
                   ),
-                )
-              ],
-            ),
+                ),
+                Container(
+                  margin: EdgeInsets.only(bottom: 20, right: 20,),
+                  child: ElevatedButton(
+                    child: Text('+', style: TextStyle(fontSize: 40,),),
+                    onPressed: () {  },
+                    style : ElevatedButton.styleFrom(
+                      primary: tdBlue,
+                      minimumSize: Size(60, 60),
+                      elevation: 10,
+                    ),
+                  ),
+                ),
+              ], ),
           ),
         ],
       ),
